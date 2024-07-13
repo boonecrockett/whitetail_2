@@ -16,224 +16,224 @@ const AlertDescription = ({ children }) => (
 
 const questions = [
     {
-        question: "What is the average lifespan of a whitetail deer in the wild?",
+        question: "What is the purpose of the 'tip-to-tip spread' measurement in scoring whitetail deer antlers?",
         choices: [
-            "2-3 years",
-            "4-6 years",
-            "8-10 years",
-            "12-15 years"
-        ],
-        correctAnswer: 1,
-        explanation: "The average lifespan of a whitetail deer in the wild is 4-6 years, although they can live up to 10 years or more in ideal conditions."
-    },
-    {
-        question: "Which of the following is NOT a common food source for whitetail deer?",
-        choices: [
-            "Acorns",
-            "Soybeans",
-            "Pine needles",
-            "Mushrooms"
-        ],
-        correctAnswer: 2,
-        explanation: "While deer may occasionally eat pine needles, they are not a common food source. Acorns, soybeans, and mushrooms are all regular parts of a whitetail deer's diet."
-    },
-    {
-        question: "What is the gestation period for whitetail deer?",
-        choices: [
-            "About 100 days",
-            "About 150 days",
-            "About 200 days",
-            "About 250 days"
-        ],
-        correctAnswer: 2,
-        explanation: "The gestation period for whitetail deer is about 200 days (6.5 to 7 months)."
-    },
-    {
-        question: "Which sense is most acute in whitetail deer?",
-        choices: [
-            "Sight",
-            "Hearing",
-            "Smell",
-            "Taste"
-        ],
-        correctAnswer: 2,
-        explanation: "While deer have good eyesight and hearing, their sense of smell is their most acute sense, capable of detecting odors from great distances."
-    },
-    {
-        question: "What is the primary mating season for whitetail deer called?",
-        choices: [
-            "Estrus",
-            "Rut",
-            "Heat",
-            "Breeding time"
-        ],
-        correctAnswer: 1,
-        explanation: "The primary mating season for whitetail deer is called the rut, which typically occurs in the fall."
-    },
-    {
-        question: "Which of these is NOT a factor that influences antler growth?",
-        choices: [
-            "Age",
-            "Nutrition",
-            "Genetics",
-            "Moon phase"
+            "It's added to the final score",
+            "It determines the antler classification",
+            "It's used for trophy qualification",
+            "It's supplementary data not affecting the score"
         ],
         correctAnswer: 3,
-        explanation: "Age, nutrition, and genetics all play significant roles in antler growth. The moon phase does not directly influence antler development."
+        explanation: "The tip-to-tip spread measurement is supplementary data recorded on the score chart to give a more complete picture of antler conformation, but it does not affect the final score."
     },
     {
-        question: "What is the term for a deer's bed or resting place?",
+        question: "How is the 'greatest spread' of antlers measured?",
         choices: [
-            "Nest",
-            "Lair",
-            "Form",
-            "Den"
+            "With a flexible tape measure",
+            "By eye estimation",
+            "Using a wall, carpenter's level, and straightedge",
+            "It's calculated based on other measurements"
         ],
         correctAnswer: 2,
-        explanation: "A deer's bed or resting place is called a form. It's typically a shallow depression in grass or leaves where the deer lies down."
+        explanation: "The greatest spread is measured by laying the rack against a vertical wall, using a carpenter's level to mark the widest point, and measuring with a straightedge."
     },
     {
-        question: "How often do whitetail bucks typically shed their antlers?",
+        question: "What determines whether a point is counted in whitetail deer antler scoring?",
         choices: [
-            "Every 6 months",
-            "Annually",
-            "Every 2 years",
-            "They don't shed their antlers"
+            "It must be at least 2 inches long",
+            "It must be longer than it is wide at some location at least one inch from the tip",
+            "It must be symmetrical with a point on the opposite antler",
+            "It must arise from the top of the main beam"
         ],
         correctAnswer: 1,
-        explanation: "Whitetail bucks shed their antlers annually, typically in late winter or early spring, and grow a new set each year."
+        explanation: "A point is any projection at least one inch long and longer than wide at some location at least one inch from the tip of the projection."
     },
     {
-        question: "What is the process of a deer marking its territory with scent called?",
+        question: "What is the correct way to measure the length of the main beam?",
         choices: [
-            "Scraping",
-            "Rubbing",
-            "Scenting",
-            "Marking"
-        ],
-        correctAnswer: 0,
-        explanation: "The process of a deer marking its territory with scent is called scraping. Bucks create scrapes on the ground and leave scent from glands on their head and hooves."
-    },
-    {
-        question: "Which of these is NOT a type of vocalization made by whitetail deer?",
-        choices: [
-            "Grunt",
-            "Bleat",
-            "Snort",
-            "Howl"
-        ],
-        correctAnswer: 3,
-        explanation: "Whitetail deer make various vocalizations including grunts, bleats, and snorts, but they do not howl. Howling is typically associated with canines like wolves or coyotes."
-    },
-    {
-        question: "What is the term for a group of deer?",
-        choices: [
-            "Herd",
-            "Flock",
-            "Pack",
-            "School"
-        ],
-        correctAnswer: 0,
-        explanation: "A group of deer is called a herd. This term is used for many hoofed mammals that live in groups."
-    },
-    {
-        question: "Which of these is NOT a common predator of adult whitetail deer?",
-        choices: [
-            "Coyotes",
-            "Wolves",
-            "Mountain lions",
-            "Eagles"
-        ],
-        correctAnswer: 3,
-        explanation: "While eagles may occasionally prey on very young fawns, they are not common predators of adult whitetail deer. Coyotes, wolves, and mountain lions are all potential predators of adult deer."
-    },
-    {
-        question: "What is the primary reason for a buck's antlers?",
-        choices: [
-            "Defense against predators",
-            "Attracting mates",
-            "Foraging for food",
-            "Regulating body temperature"
-        ],
-        correctAnswer: 1,
-        explanation: "While antlers can serve multiple purposes, their primary function is for attracting mates and competing with other bucks during the breeding season."
-    },
-    {
-        question: "What is the average weight of an adult male whitetail deer?",
-        choices: [
-            "50-100 lbs",
-            "100-150 lbs",
-            "150-300 lbs",
-            "300-500 lbs"
+            "From the burr to the longest tine",
+            "From the burr to the first point",
+            "From the center of the burr along the outer side to the main beam tip",
+            "As a straight line from burr to tip"
         ],
         correctAnswer: 2,
-        explanation: "The average weight of an adult male whitetail deer (buck) ranges from 150 to 300 pounds, depending on age, habitat, and geographic location."
+        explanation: "The length of the main beam is measured from the point where the center line of the antler along the outer side intersects the bottom edge of the burr, following the outer curve to the main beam tip."
     },
     {
-        question: "What is the term for a deer's ability to grow new antlers?",
+        question: "How many circumference measurements are always taken on Coues' whitetail antlers?",
         choices: [
-            "Antlerogenesis",
-            "Ossification",
-            "Calcification",
-            "Regeneration"
-        ],
-        correctAnswer: 0,
-        explanation: "The process of growing new antlers is called antlerogenesis. It's one of the fastest known types of tissue growth in mammals."
-    },
-    {
-        question: "Which of these is NOT a common habitat for whitetail deer?",
-        choices: [
-            "Deciduous forests",
-            "Agricultural fields",
-            "Desert scrublands",
-            "Suburban areas"
-        ],
-        correctAnswer: 2,
-        explanation: "While whitetail deer are adaptable and can be found in various habitats, desert scrublands are not a common habitat. They prefer areas with a mix of forest and open land."
-    },
-    {
-        question: "What is the process of a buck rubbing its antlers on trees called?",
-        choices: [
-            "Shedding",
-            "Polishing",
-            "Scraping",
-            "Rubbing"
-        ],
-        correctAnswer: 3,
-        explanation: "When a buck rubs its antlers on trees, it's called rubbing. This behavior serves to remove velvet from antlers and mark territory."
-    },
-    {
-        question: "How many stomach chambers does a whitetail deer have?",
-        choices: [
-            "One",
             "Two",
             "Three",
-            "Four"
+            "Four",
+            "It varies based on the number of points"
         ],
-        correctAnswer: 3,
-        explanation: "Like other ruminants, whitetail deer have four stomach chambers that allow them to digest tough plant material efficiently."
+        correctAnswer: 2,
+        explanation: "Four and only four circumferences are always taken on Coues' whitetails, just like regular whitetails, regardless of the number of normal points."
     },
     {
-        question: "What is the term for a deer's white tail?",
+        question: "What is done if there's excessive flaring near the ends of the main beams when measuring inside spread?",
         choices: [
-            "Flag",
-            "Beacon",
-            "Signal",
-            "Marker"
+            "The flared portion is ignored in the measurement",
+            "The measurement is taken at the widest point regardless of flaring",
+            "An average is taken between the flared and non-flared portions",
+            "The inside spread is not measured in this case"
         ],
         correctAnswer: 0,
-        explanation: "A deer's white tail is often referred to as a 'flag'. When raised, it serves as a warning signal to other deer and is highly visible as the deer bounds away."
+        explanation: "If an excessive/abnormal flare is present, the inside spread measurement cannot include spread caused by the excessive flaring of the antler beam. It's taken at the greatest inside spread from the location where the antler begins to diverge from the normal curvature."
     },
     {
-        question: "What is the average home range size for a whitetail buck?",
+        question: "How are webbed antlers measured for length?",
         choices: [
-            "0.5-1 square mile",
-            "1-3 square miles",
-            "5-10 square miles",
-            "15-20 square miles"
+            "Along the outer edge of the webbing",
+            "Through the center of the projected normal main beam",
+            "As a straight line from base to tip",
+            "Webbed antlers cannot be officially scored"
         ],
         correctAnswer: 1,
-        explanation: "The average home range for a whitetail buck is typically 1-3 square miles, although this can vary based on habitat quality and deer population density."
+        explanation: "For webbed antlers, the measurer should imagine the normal main beam as if there was no webbing. The length measurement is then taken through the center of the projected main beam."
+    },
+    {
+        question: "What is the minimum score for a typical Coues' whitetail to qualify for Boone and Crockett All-Time records?",
+        choices: [
+            "100",
+            "110",
+            "120",
+            "130"
+        ],
+        correctAnswer: 1,
+        explanation: "The minimum score for a typical Coues' whitetail to qualify for Boone and Crockett All-Time records is 110."
+    },
+    {
+        question: "How are multiple or split brow tines handled in scoring?",
+        choices: [
+            "Both are measured as normal points",
+            "The longer one is measured as the normal G-1",
+            "They are both considered abnormal points",
+            "They are averaged for a single G-1 measurement"
+        ],
+        correctAnswer: 1,
+        explanation: "Only one projection of multiple or split brow tines can be measured as the normal brow point G-1. Generally, the one that best matches in shape and location of usual G-1 points (often the longer one) is chosen as the normal G-1 point."
+    },
+    {
+        question: "What is the correct procedure if a normal point is broken off to less than an inch long?",
+        choices: [
+            "Estimate its original length",
+            "Ignore it in the scoring",
+            "Record a zero and note it in the Remarks section",
+            "Consider it an abnormal point"
+        ],
+        correctAnswer: 2,
+        explanation: "If a normal point has been broken off to less than an inch long, record a zero to indicate its condition and note the action in the Remarks section. This preserves the sequence and avoids any artificial penalty for non-symmetry."
+    },
+    {
+        question: "How is the H-4 circumference measured if there are fewer than four normal points on an antler?",
+        choices: [
+            "It's not measured",
+            "At the base of the last normal point",
+            "Halfway between the last normal point and the beam tip",
+            "At the narrowest point of the main beam"
+        ],
+        correctAnswer: 2,
+        explanation: "If there are fewer than four measured normal points per antler, the H-4 circumference is taken on the main beam halfway between a point in the center of the beam, directly in the center of the G-3 point base and the beam tip."
+    },
+    {
+        question: "What is the correct way to measure a curved antler point?",
+        choices: [
+            "Along the inside curve",
+            "Along the outside curve",
+            "As a straight line from base to tip",
+            "By averaging the inside and outside measurements"
+        ],
+        correctAnswer: 1,
+        explanation: "Antler points are measured along the outside of their curve in the center of the tine."
+    },
+    {
+        question: "How are circumference measurements taken when an abnormal point arises between normal points?",
+        choices: [
+            "At the abnormal point",
+            "At the narrowest location between normal points on either side of the abnormal point",
+            "They are not taken in this case",
+            "At the widest point near the abnormal growth"
+        ],
+        correctAnswer: 1,
+        explanation: "When an abnormal point arises between normal points, the circumference measurements are taken at the narrowest location between normal points on either side of the abnormal point."
+    },
+    {
+        question: "What is the minimum number of abnormal inches required for a Coues' whitetail to be classified as non-typical in Pope and Young?",
+        choices: [
+            "5 inches",
+            "10 inches",
+            "15 inches",
+            "20 inches"
+        ],
+        correctAnswer: 0,
+        explanation: "A Coues' whitetail must have 5 inches of abnormal points to be classified as non-typical in Pope and Young."
+    },
+    {
+        question: "How is the inside spread credit determined if it exceeds the length of the longer main beam?",
+        choices: [
+            "The actual inside spread is used",
+            "It's limited to the length of the longer main beam",
+            "An average of the spread and beam length is used",
+            "The inside spread is not included in the score"
+        ],
+        correctAnswer: 1,
+        explanation: "If the inside spread measurement exceeds the longer main beam, record the longer main beam length as the spread credit. Spread credit cannot exceed the length of the longer antler main beam."
+    },
+    {
+        question: "What is the correct procedure for measuring the greatest spread of palmated antlers?",
+        choices: [
+            "Measure across the widest part of the palms",
+            "Measure from the main beams only, ignoring the palms",
+            "Take multiple measurements and use the average",
+            "Palmated antlers cannot be officially scored"
+        ],
+        correctAnswer: 0,
+        explanation: "For palmated antlers, the greatest spread is measured across the widest part of the palms, using the same method as for typical antlers (wall and carpenter's level technique)."
+    },
+    {
+        question: "How are non-typical points on a typical entry handled in scoring?",
+        choices: [
+            "They are ignored entirely",
+            "They are added to the score",
+            "They are subtracted from the score",
+            "They are averaged with normal points"
+        ],
+        correctAnswer: 2,
+        explanation: "For a typical entry, the total of the lengths of abnormal points is subtracted from the score as part of the differences calculation."
+    },
+    {
+        question: "What is the correct way to establish the base line for measuring a point?",
+        choices: [
+            "Draw a straight line across the base",
+            "Use the natural contour of the antler as a guide",
+            "Measure from the lowest point of the base",
+            "Take an average of multiple base lines"
+        ],
+        correctAnswer: 1,
+        explanation: "Base lines should reflect the normal antler configuration as if the point was not present. A natural bending or curving of the opposite edge of the point or beam should be reflected in the base line."
+    },
+    {
+        question: "How is the Final Score calculated for a non-typical whitetail?",
+        choices: [
+            "Sum of all measurements",
+            "Sum of measurements minus differences",
+            "Sum of measurements plus abnormal points",
+            "Average of right and left antler scores"
+        ],
+        correctAnswer: 2,
+        explanation: "For a non-typical whitetail, the Final Score is calculated by subtracting the differences from the subtotal of measurements and spread credit, then adding the total length of abnormal points."
+    },
+    {
+        question: "What is the minimum score for a non-typical whitetail deer to qualify for Boone and Crockett Awards?",
+        choices: [
+            "175",
+            "185",
+            "195",
+            "205"
+        ],
+        correctAnswer: 1,
+        explanation: "The minimum score for a non-typical whitetail deer to qualify for Boone and Crockett Awards is 185."
     }
 ];
 
@@ -294,7 +294,7 @@ const QuizApp = () => {
 
     return (
         <div className="max-w-2xl mx-auto p-4">
-            <h1 className="text-2xl font-bold mb-4">Whitetail Deer Quiz</h1>
+            <h1 className="text-2xl font-bold mb-4">Whitetail Scoring Quiz</h1>
             <p className="mb-4">Question {currentQuestion + 1} of {questions.length}</p>
             <p className="text-lg font-semibold mb-4">{currentQ.question}</p>
             <div className="space-y-2">
